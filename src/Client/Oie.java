@@ -12,7 +12,7 @@ public class Oie {
 			Gui client = new Gui(serverAddress);
 			client.play();
 			if (!client.wantsToPlayAgain()) {
-				break;
+				break;//changement a venir 
 			}
 		}
 	}
